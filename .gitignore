@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+backend/.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Build output
+dist/
+
+# Python files
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
+
+# Editor settings
+.vscode/
